@@ -1,12 +1,12 @@
 body{
 	margin: 0;
 	font-family: "Josefin Sans", sans-serif;
-	font-size: 36px;
+	font-size: 3vw;
 	background-color: #313131;
 	color: #ccc;
 }
 
-h2{
+h3{
 	background-color: #121315;
 	padding: 40px;
 	margin: 0;
@@ -30,15 +30,16 @@ li:hover{
 
 input{
 	width: 100%;
-	border: none;
-	margin: 0;
-	padding: 20px;
+	border: none;	
 	height: 30px;
 	outline: none;
+	margin: 0;
+	padding: 35px 35px 35px 20px;
 	font-family: "Josefin Sans", sans-serif;
-	font-size: 25px;
+	font-size: 30px;
 	background-color: #fffff8;
 	color: #AFCB02;
+	box-sizing: border-box;
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -63,6 +64,11 @@ input{
 
 .delete:hover{
 	color: #AFCB02;
+}
+
+#container{
+	padding: 0;
+	margin: 0;
 }
 
 #list{

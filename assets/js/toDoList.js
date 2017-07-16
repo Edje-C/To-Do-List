@@ -18,7 +18,7 @@ $("input[type='text']").keypress(function(event){
 		///grab todo from input box
 		var newToDo = ($(this).val());
 		///creat new li
-		$("ul").append("<li>" + newToDo + " <span class='delete'>X</span></li>");
+		$("ul").prepend("<li>" + newToDo + " <span class='delete'>X</span></li>");
 		$(this).val("");
 	}
 });

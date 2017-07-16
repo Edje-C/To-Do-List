@@ -1,12 +1,12 @@
 body{
 	margin: 0;
 	font-family: "Josefin Sans", sans-serif;
-	font-size: 6vh;
+	font-size: 36px;
 	background-color: #313131;
 	color: #ccc;
 }
 
-h3{
+h2{
 	background-color: #121315;
 	padding: 40px;
 	margin: 0;
